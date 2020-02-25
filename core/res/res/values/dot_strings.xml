@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright (C) 2018-2020 Project dot OS
+   Copyright (C) 2018-2020 Project dot OS
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -13,17 +14,11 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- Paths to the libraries that contain device specific key handlers -->
-    <string-array name="config_deviceKeyHandlerLibs" translatable="false">
-    </string-array>
-
-    <!-- Names of the key handler classes -->
-    <string-array name="config_deviceKeyHandlerClasses" translatable="false">
-    </string-array>
-
-    <!-- Whether the device has a popup camera -->
-    <bool name="config_hasPopupCamera">false</bool>
+    <!-- Popup camera dialog -->
+    <string name="popup_camera_dialog_message">Do you want to raise the front facing camera?</string>
+    <string name="popup_camera_dialog_no">No</string>
+    <string name="popup_camera_dialog_raise">Yes</string>
 
 </resources>
